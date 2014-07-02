@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 
 //-------------------------------------------------------------------------------------
 /**
- * PlasticoLab - CodeIgniter Browser Cache Helper
+ * CodeIgniter Browser Cache Helper
  * 
  * Helper que contiene funciones de ayuda para el control de cache de las hojas de estilo,
  * imagenes, javascripts, y cualquier cosa que pueda ser cacheada por el explorador web.
