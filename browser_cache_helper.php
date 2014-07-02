@@ -1,3 +1,13 @@
+// =================================================================================================
+//
+//	Copyright 2014 Carlos Bernal. All Rights Reserved.
+//
+//	This program is free software. You can redistribute and/or modify it
+//	in accordance with the terms of the accompanying license agreement.
+//
+// =================================================================================================
+
+
 <?php
 
 if (!defined('BASEPATH'))
@@ -46,7 +56,7 @@ if (!function_exists('cache_base_url')) {
         $CI->load->helper('url');
         $fullURL = base_url($uri);
 
-        //Agregar el numero de version version
+        //Agregar el numero de version
         if ($cacheVersion == NULL) {
             if (defined('BROWSER_CACHE_VERSION')) {
                 $fullURL = $fullURL . '?version=' . BROWSER_CACHE_VERSION;
